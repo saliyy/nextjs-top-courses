@@ -1,0 +1,58 @@
+.tag {
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.medium {
+    font-size: 16px;
+}
+
+
+.large {
+    font-size: 18px;
+}
+
+.primary {
+    color: var(--white);
+    background: var(--primary);
+}
+
+
+.primary:hover {
+    background: var(--primary-hover);
+}
+
+.ghost {
+    color: var(--black);
+    background: none;
+    border: 1px solid var(--gray-light);
+}
+
+.ghost:hover {
+    color: var(--white);
+    background: var(--primary);
+ 
+}
+
+.success {
+    color: var(--white);
+    background: var(--green);
+}
+
+.warning {
+    color: var(--white);
+    background: var(--waring);
+}
+
+.danger {
+    color: var(--white);
+    background: var(--red);
+}
+

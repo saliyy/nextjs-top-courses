@@ -1,0 +1,13 @@
+.star {
+    margin-left: 5px;
+    fill: #E2E2E2;
+    cursor: pointer;
+}
+
+.filled {
+    fill: var(--primary)
+}
+
+.noneditable {
+    cursor: not-allowed;
+}
